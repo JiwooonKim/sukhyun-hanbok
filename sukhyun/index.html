@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>숙현한복</title>
+  <!--Slick.js-->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script src="https://kit.fontawesome.com/aa3f8d00d7.js" crossorigin="anonymous"></script>
+	<script src="js/slick/slick.min.js"></script>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+	<link rel="stylesheet" href="js/slick/slick-theme.css">
+	<link rel="stylesheet" href="js/slick/slick.css">
+  <!-- Custom Js & CSS -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <script src="main.js"></script>
+  
+</head>
+<body>
+  <div class="wrapper">
+    <!--fixed button-->
+    <div class="top_btn">
+      <a href="#"><i class="fa-solid fa-angle-up"></i></a>
+    </div>
+    <div class="consulting_btn">
+      <a href="#" class="">
+        <span>카톡상담<i class="fa-solid fa-comments"></i></span>
+      </a>
+    </div>
+    <!-- Header -->
+    <header id="header">
+      <div class="header_inner container clearfix">
+        <div class="logo">
+          <a href="#"><img src="img/logo.png"></a>
+        </div>
+        <nav class="nav">
+          <ul class="gnb clearfix">
+            <li>
+              <a href="#">브랜드소개</a>
+              <ul class="gnb_sub">
+                <li><a href="">인사말</a></li>
+                <li><a href="">매장안내</a></li>
+                <li><a href="">연혁</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">숙현갤러리</a>
+              <ul class="gnb_sub">
+                <li><a href="">신랑/신부 한복</a></li>
+                <li><a href="">혼주 한복</a></li>
+                <li><a href="">아이 한복</a></li>
+                <li><a href="">연예인 한복</a></li>
+                <li><a href="">미디어 협찬</a></li>
+                <li><a href="">한복 화보</a></li>
+                <li><a href="">작품/디자인 한복</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">문의및신청</a>
+              <ul class="gnb_sub">
+                <li><a href="">방문예약</a></li>
+                <li><a href="">견적문의</a></li>
+                <li><a href="">혼서지신청</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">숙현패션쇼</a>
+            </li>
+            <li>
+              <a href="#">커뮤니티</a>
+              <ul class="gnb_sub">
+                <li><a href="">공지사항</a></li>
+                <li><a href="">이벤트</a></li>
+                <li><a href="">고객후기</a></li>
+                <li><a href="">보도자료</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <a href="#" class="search_btn"><i class="fas fa-search"></i></a>
+        <div class="menu_btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div class="gnb_bg"></div>
+      <div class="mobile_nav">
+        <ul class="mobile_gnb">
+          <li>
+            <a href="#">브랜드소개</a>
+            <ul class="mobile_gnb_sub">
+              <li><a href="">인사말</a></li>
+              <li><a href="">매장안내</a></li>
+              <li><a href="">연혁</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">숙현갤러리</a>
+            <ul class="mobile_gnb_sub">
+              <li><a href="">신랑/신부 한복</a></li>
+              <li><a href="">혼주 한복</a></li>
+              <li><a href="">아이 한복</a></li>
+              <li><a href="">연예인 한복</a></li>
+              <li><a href="">미디어 협찬</a></li>
+              <li><a href="">한복 화보</a></li>
+              <li><a href="">작품/디자인 한복</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">문의및신청</a>
+            <ul class="mobile_gnb_sub">
+              <li><a href="">방문예약</a></li>
+              <li><a href="">견적문의</a></li>
+              <li><a href="">혼서지신청</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">숙현패션쇼</a>
+          </li>
+          <li>
+            <a href="#">커뮤니티</a>
+            <ul class="mobile_gnb_sub">
+              <li><a href="">공지사항</a></li>
+              <li><a href="">이벤트</a></li>
+              <li><a href="">고객후기</a></li>
+              <li><a href="">보도자료</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- //Header -->
+    <!-- Main Visual -->
+    <section id="mv_sec">
+      <div class="visual_inner clearfix">
+        <div class="visual_img">
+          <img src="img/visual.jpg" class="visual_pc">
+          <img src="img/visual_tablet.jpg" class="visual_tablet">
+          <img src="img/visual_mobile1.jpg" class="visual_mobile">
+        </div>
+        <div class="visual_desc">
+          <img src="img/visual_desc.png" class="visual_desc_pc">
+          <img src="img/visual_desc_mobile.png" class="visual_desc_mobile">
+        </div>
+      </div>
+    </section> 
+    <!-- //Main Visual -->
+    <!-- Quick Menu -->
+    <div id="main_qmenu" class="clearfix">
+      <div class="main_qmenu_l"><a href="#">방문 예약</a></div>
+      <div class="main_qmenu_r"><a href="#">견적 문의</a></div>
+    </div> 
+    <!-- //Quick Menu -->
+    <!-- Difference -->
+    <section id="diff_sec">
+      <div class="diff_inner container">
+        <div class="diff_tit sec_tit">
+          <h2>숙현의 차별성</h2>
+        </div>
+        <div class="diff_space clearfix">
+          <div class="diff_space_img">
+            <img src="img/diff_space.jpg">
+          </div>
+          <div class="diff_space_desc">
+            <h3>숙현만의 공간, 보담재</h3>
+            <p>
+              ‘보담재’는 맞춤상담실, 디자인실과 작업실을<br>
+              운영하여 체계적인 시스템을 갖추고 있습니다.
+            </p>
+          </div>
+        </div>
+        <div class="diff_design clearfix">
+          <div class="diff_design_img">
+            <img src="img/diff_design.jpg">
+          </div>
+          <div class="diff_design_desc">
+            <h3>숙현만의 독보적인 디자인</h3>
+            <p>
+              한복전문 디자이너와 30년 경력의 봉재 전문가가<br>
+              고객님께 가장 어울리는 고유의 한복을 제작합니다.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- //Difference -->
+    <!-- Media -->
+    <section id="media_sec">
+      <div class="media_inner">
+        <div class="media_tit sec_tit">
+          <h2>방송사가 선택한 한복</h2>
+          <p>국내 최다 사극드라마 의상제작, 제작사들이 인정한 숙현한복</p>
+        </div>
+        <div class="media_slide">
+          <div><img src="img/media_img1.jpg"></div>
+          <div><img src="img/media_img2.jpg"></div>
+          <div><img src="img/media_img3.jpg"></div>
+          <div><img src="img/media_img4.jpg"></div>
+          <div><img src="img/media_img5.jpg"></div>
+        </div>
+      </div>
+    </section>
+    <!-- //Media -->
+    <!-- Gallery -->
+    <section id="gallery_sec">
+      <div class="gallery_inner container">
+        <div class="gallery_tit sec_tit">
+          <h2>숙현갤러리</h2>
+          <a href="#" class="view_btn">view<i class="right_ico fas fa-chevron-right"></i></a>
+        </div>
+        <div class="gallery_slide">
+          <div>
+            <img src="img/gallery_img1-1.jpg">
+            <p>부부 한복</p>
+          </div>
+          <div>
+            <img src="img/gallery_img02.jpg">
+            <p>혼주 한복</p>
+          </div>
+          <div>
+            <img src="img/gallery_img3-0.jpg">
+            <p>아이 한복</p>
+          </div>
+          <div>
+            <img src="img/gallery_img4.jpg">
+            <p>연예인 한복</p>
+          </div>
+          <div>
+            <img src="img/gallery_img5.jpg">
+            <p>미디어 협찬</p>
+          </div>
+          <div>
+            <img src="img/gallery_img6.jpg">
+            <p>한복 화보</p>
+          </div>
+          <div>
+            <img src="img/gallery_img7.jpg">
+            <p>작품/디자인 한복</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- //Gallery -->
+    <!-- Review -->
+    <section id="review_sec">
+      <div class="review_inner container clearfix">
+        <div class="review_left">
+          <div class="review_tit sec_tit">
+            <h2>고객후기</h2>
+            <p>숙현의 새로운 소식을 알려드립니다.</p>
+            <a href="#" class="view_btn">view<i class="right_ico fas fa-chevron-right"></i></a>
+          </div>
+        </div>
+        <div class="review_right">
+          <ul class="review_list_wrap">
+            <li class="review_list">
+              <a href="#" class="clearfix">
+                <div class="list_title">
+                  <span>숙현한복 혼주한복 후기입니다</span>
+                </div>
+                <div class="list_date">
+                  <span>2021.01.06</span>
+                </div>
+              </a>
+            </li>
+            <li class="review_list">
+              <a href="#" class="clearfix">
+                <div class="list_title">
+                  <span>숙현한복 혼주한복 후기입니다</span>
+                </div>
+                <div class="list_date">
+                  <span>2021.01.06</span>
+                </div>
+              </a>
+            </li>
+            <li class="review_list">
+              <a href="#" class="clearfix">
+                <div class="list_title">
+                  <span>숙현한복 혼주한복 후기입니다</span>
+                </div>
+                <div class="list_date">
+                  <span>2021.01.06</span>
+                </div>
+              </a>
+            </li>   
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- //Review -->
+    <!-- Sns -->
+    <section id="sns_sec">
+      <div class="sns_inner container">
+        <div class="sns_tit sec_tit">
+          <h2><span>#</span> 숙현</h2>
+          <h2>지금 이 순간</h2>
+        </div>
+        <div class="sns_gallery clearfix">
+          <ul>
+            <li class="sns_item">
+              <a href="https://www.instagram.com/p/CCmx2lSj4WR/" target="blank_">
+                <img src="img/sns1.jpg">
+              </a>
+            </li>
+            <li class="sns_item">
+              <a href="https://www.instagram.com/p/CLG2pYaDjLI/" target="blank_">
+                <img src="img/sns2.jpg">
+              </a>
+            </li>
+            <li class="sns_item">
+              <a href="https://www.instagram.com/p/CQLVaAKjJMe/" target="blank_">
+                <img src="img/sns3.jpg">
+              </a>
+            </li>
+            <li class="sns_item">
+              <a href="https://www.instagram.com/p/CNy7f4rjKM6/" target="blank_">
+                <img src="img/sns4.jpg">
+              </a>
+            </li>
+            <li class="sns_item">
+              <a href="https://www.instagram.com/p/CNHROe5DXP9/" target="blank_">
+                <img src="img/sns5.jpg">
+              </a>
+            </li>
+          </ul>
+          <ul>
+            <li class="sns_item">
+              <a href="https://www.instagram.com/p/CF_DbwPDqY-/" target="blank_">
+                <img src="img/sns6.jpg">
+              </a>
+            </li>
+            <li class="sns_item">
+              <a href="https://www.instagram.com/p/CCr4AIcjiBN/" target="blank_">
+                <img src="img/sns7.jpg">
+              </a>
+            </li>
+            <li class="sns_item">
+              <a href="https://www.instagram.com/p/CBenJLljK0m/" target="blank_">
+                <img src="img/sns8.jpg">
+              </a>
+            </li>
+            <li class="sns_item">
+              <a href="https://www.instagram.com/p/B_37p4ZjD4F/" target="blank_">
+                <img src="img/sns9.jpg">
+              </a>
+            </li>
+            <li class="sns_item">
+              <a href="https://www.instagram.com/p/CK5myMoDAyq/" target="blank_">
+                <img src="img/sns10.jpg">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- //Sns -->
+    <!--Footer-->
+    <footer id="footer_sec">
+      <div class="footer_inner container clearfix">
+        <div class="footer_left">
+          <div class="footer_logo">
+            <a href="#"><img src="img/logo_white.png"></a>
+          </div>
+          <div class="footer_info">
+            <div class="footer_tel">
+              <p>TEL</p>
+              <p>02-549-3451</p>
+            </div>
+            <div class="footer_time">
+              <p>영업시간</p>
+              <p>AM 10:30 - PM 17:30</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer_right">
+          <div class="footer_sns_ico">
+            <ul>
+              <li>
+                <a href="https://www.instagram.com/sukhyunhanbok/" target="blank_">
+                  <img src="img/footer_instagram.png">
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/sukhyunhanbok/" target="blank_">
+                  <img src="img/footer_facebook.png">
+                </a>
+              </li>
+              <li>
+                <a href="https://blog.naver.com/prologue/PrologueList.naver?blogId=gounhanbok" target="blank_">
+                  <img src="img/footer_blog.png">
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer_menu">
+            <ul>
+              <li><a href="#">회사소개</a></li>
+              <li><a href="#">견적문의</a></li>
+              <li><a href="#">방문예약</a></li>
+              <li><a href="#">오시는길</a></li>
+            </ul>
+          </div>
+          <div class="footer_txt">
+            <p>
+              서울특별시 강남구 학동로55길 12-6(청담동 38-20, 보담재) 주식회사 숙현 <br>
+              FAX : 02-549-3451 사업자등록번호 : 261-81-15316 대표자 : 신숙영<br>
+              E-mail : gounsh@naver.com ⓒ2017 SUKHYUN. All Rights Reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--//Footer-->
+  </div>
+</body>
+</html>
