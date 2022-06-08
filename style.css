@@ -59,7 +59,7 @@ body {
 }
 .sec_tit p {
   font-size: 18px;
-  color: #747272;
+  color: #3c3c3c;
 }
 .view_btn {
   position: absolute;
@@ -328,6 +328,9 @@ header .gnb_bg {
   font-weight: normal;
   font-size: 24px;
 }
+.diff_space_desc p, .diff_design_desc p {
+  color: #3c3c3c;
+}
 .diff_space > div{
   float: left;
   margin-bottom: 30px;
@@ -414,6 +417,7 @@ header .gnb_bg {
 .gallery_slide p {
   margin-top: 24px;
   font-size: 20px;
+  color: #3c3c3c;
 }
 .gallery_slide .slick-dots li button:before {
   margin-top: 40px;
@@ -562,6 +566,8 @@ header .gnb_bg {
 }
 .footer_sns_ico li {
   display: inline-block;
+}
+.footer_sns_ico li ~ li {
   margin-left: 30px;
 }
 .footer_sns_ico li > a {
