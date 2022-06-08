@@ -1,4 +1,16 @@
-@media (max-width: 1023px) {
+@media (max-width: 1024px) {
+  /*Global*/
+  .sec_tit h2 {
+    font-size: 30px;
+  }
+  .sec_tit p {
+    font-size: 16px;
+  }
+  .view_btn {
+    font-size: 14px;
+  }
+
+  /*Header*/
   header { height: 60px; }
   .nav .gnb {
     display: none;
@@ -52,6 +64,13 @@
   }
   .diff_space_desc { background: url(img/cloud_l.png) no-repeat 30% 30px; }
   .diff_design_desc { background: url(img/cloud_r.png) no-repeat 70% 30px; }
+
+  .diff_space_desc h3, .diff_design_desc h3 {
+    font-size: 22px;
+  }
+  .diff_space_desc p, .diff_design_desc p {
+    font-size: 16px;
+  }
   
   .media_inner { margin-left: 40px; }
   .media_slide .slick-prev {
@@ -60,6 +79,15 @@
   .media_slide .slick-next {
     right: 6%;
   }
+
+  /*Gallery*/
+  .gallery_tit .view_btn {
+    bottom: 46px;
+  }
+  .gallery_slide p {
+    font-size: 18px;
+  }
+
   /* Review */
   .review_left {
     float: inherit;
@@ -70,7 +98,7 @@
     padding-top: 0;
   }
   .review_tit .view_btn {
-    top: 46px;
+    top: 44px;
     right: 0;
     left: inherit;
   }
@@ -78,6 +106,13 @@
     float: inherit;
     width: 100%;
   }
+  .review_list .list_title {
+    font-size: 16px;
+  }
+  .review_list .list_date {
+    font-size: 14px;
+  }
+
   /* Sns */
   .sns_gallery .sns_item:nth-child(5) {
     display: none;
@@ -94,14 +129,14 @@
 
   /* Footer */
   #footer_sec{
-    padding: 64px 0;
+    padding-top: 52px;
   }
   .footer_inner .footer_left {
     float: inherit;
     text-align: center;
   }
   .footer_left div ~ div {
-    margin-top: 18px;
+    margin-top: 22px;
   }
   .footer_info {
     border-top: 1px solid #c6c6c6;
@@ -112,7 +147,9 @@
     display: inline-block;
     margin-left: 40px;
   }
-
+  .footer_left .footer_info {
+    font-size: 14px;
+  }
   .footer_inner .footer_right {
     float: inherit;
     text-align: center;
@@ -120,6 +157,16 @@
   }
   .footer_right div ~ div {
     margin-top: 30px;
+  }
+  .footer_sns_ico li > a {
+    width: 42px;
+    height: 42px;
+  }
+  .footer_menu a {
+    font-size: 14px;
+  }
+  .footer_txt {
+    font-size: 12px;
   }
 }
 
@@ -129,8 +176,28 @@
     padding: 0 20px;
   }
   .sec_tit h2 {
-    font-size: 28px;
+    font-size: 26px;
   }
+  .sec_tit p {
+    font-size: 14px;
+  }
+  
+  /* Fixed buton */
+  .top_btn {
+    right: 20px;
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    font-size: 14px;
+  }
+  .consulting_btn {
+    right: 80px;
+    width: 106px;
+    height: 44px;
+    line-height: 45px;
+    font-size: 14px;
+  }
+  
   /* Header */
   .menu_btn { right: 24px; }
   .search_btn { right: 62px; }
@@ -163,25 +230,26 @@
     background-size: 42%;  
   }
   .diff_space_desc h3, .diff_design_desc h3 {
+    font-size: 20px;
     margin: 0 0 10px;
   }
   .diff_space_desc p, .diff_design_desc p {
-    font-size: 16px;
+    font-size: 14px;
   }
   .diff_space_desc p > br, .diff_design_desc p > br { display: none; }
 
   /* Media */
   #media_sec {
     background: url(img/media_bg.png) no-repeat -252px 15%;
-    background-size: 530px;
+    background-size: 442px
   }
   .media_inner {
     margin-left: 20px; 
   } 
-  .media_tit p { font-size: 16px; }
   .media_slide .slick-arrow {
     display: none !important;
   }
+  
   /* Gallery */
   .gallery_inner.container {
     padding: 0 12px;
@@ -191,6 +259,20 @@
   }
   .gallery_slide .slick-slide {
     margin: 0 6px;
+  }
+  .gallery_slide p {
+    font-size: 16px;
+  }
+
+  /*Review*/
+  .review_list .list_title {
+    float: inherit;
+    font-size: 14px;
+  }
+  .review_list .list_date {
+    float: inherit;
+    font-size: 12px;
+    margin-top: 6px;
   }
 
    /* Sns */
@@ -224,10 +306,26 @@
   }
 
   /* Footer */
-  .footer_logo img {
-    width: 80px;
+  #footer_sec {
+    padding-top: 50px;
+  }
+  .footer_logo a {
+    width: 64px;
+    height: 64px;
+  }
+  .footer_info {
+    height: 144px;
+    padding: 20px;
+  }
+  .footer_info div {
+    display: block;
+    margin-left: 0;
   }
   .footer_menu li {
-    margin-left: 24px;
+    margin-left: 18px;
+  }
+  .footer_sns_ico li > a {
+    width: 34px;
+    height: 34px;
   }
 }
