@@ -53,9 +53,13 @@ body {
   padding: 0 40px;
 }
 .sec_tit h2 {
-  font-weight: normal;
   font-family: 'JSongMyung-Regular-KO';
+  font-weight: normal;
   font-size: 32px;
+}
+.sec_tit p {
+  font-size: 18px;
+  color: #747272;
 }
 .view_btn {
   position: absolute;
@@ -324,10 +328,6 @@ header .gnb_bg {
   font-weight: normal;
   font-size: 24px;
 }
-.diff_space_desc p, .diff_design_desc p {
-  font-size: 18px;
-  color: #747272;
-}
 .diff_space > div{
   float: left;
   margin-bottom: 30px;
@@ -368,8 +368,6 @@ header .gnb_bg {
   margin-bottom: 30px;
 }
 .media_tit p {
-  font-size: 18px;
-  color: #747272;
   margin-top: 6px;
 }
 .media_slide .slick-arrow {
@@ -390,6 +388,7 @@ header .gnb_bg {
 /* ************ Gallery ************* */
 .gallery_inner {
   text-align: center;
+  margin-top: 40px;
 }
 .gallery_tit {
   position: relative;
@@ -417,9 +416,9 @@ header .gnb_bg {
   font-size: 20px;
 }
 .gallery_slide .slick-dots li button:before {
-  margin-top: 20px;
-  width: 10px;
-  height: 10px;
+  margin-top: 40px;
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
   content: '';
   opacity: .15;
@@ -445,7 +444,7 @@ header .gnb_bg {
 
 /* ************ Review ************* */
 #review_sec {
-  margin-top: 110px;
+  margin-top: 150px;
   padding: 100px 0;
   background: #f8f8f4;
 } 
@@ -459,8 +458,6 @@ header .gnb_bg {
   padding-top: 20px;
 }
 .review_tit p {
-  font-size: 18px;
-  color: #747272;
   margin-top: 10px;
 }
 .review_tit .view_btn {
@@ -474,18 +471,19 @@ header .gnb_bg {
 .review_right .review_list {
   padding: 20px 0;
   border-bottom: 1px solid #c6c6c6;
+  line-height: 20px;
 }
 .review_list a {
   display: block;
 }
 .review_list .list_title {
   float: left;
-  font-size: 20px;
+  font-size: 18px;
   color: #747272;
 }
 .review_list .list_date {
   float: right;
-  font-size: 18px;
+  font-size: 16px;
   color: #9b9b9b;
 }
 /* ************ Sns ************* */
@@ -547,10 +545,17 @@ header .gnb_bg {
 }
 .footer_logo a {
   display: inline-block;
+  background: url(img/logo_white.png) no-repeat 0 0 / cover;
+  width: 84px;
+  height: 84px;
+}
+.footer_left .footer_info {
+  font-size: 16px;
 }
 .footer_inner .footer_right {
   float: right;
   text-align: right;
+  margin-top: 20px;
 }
 .footer_right div ~ div {
   margin-top: 56px;
@@ -559,13 +564,30 @@ header .gnb_bg {
   display: inline-block;
   margin-left: 30px;
 }
+.footer_sns_ico li > a {
+  display: inline-block;
+  width: 54px;
+  height: 54px;
+  text-indent: -9999px;
+}
+.sns_instagram {
+  background: url(img/footer_instagram.png) no-repeat 0 0 / cover;
+}
+.sns_facebook {
+  background: url(img/footer_facebook.png) no-repeat 0 0 / cover;
+}
+.sns_blog {
+  background: url(img/footer_blog.png) no-repeat 0 0 / cover;
+}
 .footer_menu li {
   display: inline-block;
   margin-left: 70px;
 } 
 .footer_menu a {
-  font-size: 18px;
+  font-size: 16px;
   color: #fefefe;
   font-weight: 500;
 }
-
+.footer_txt {
+  font-size: 14px;
+}
