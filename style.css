@@ -321,7 +321,7 @@ header .gnb_bg {
 }
 .diff_space_img > img,
 .diff_design_img > img {
-  width: 100%;
+  width: 90%;
 }
 .diff_space_desc h3, .diff_design_desc h3 {
   font-family: 'JSongMyung-Regular-KO';
@@ -330,28 +330,31 @@ header .gnb_bg {
 }
 .diff_space_desc p, .diff_design_desc p {
   color: #3c3c3c;
+  font-size: 18px;
+  line-height: 32px;
 }
 .diff_space > div{
   float: left;
   margin-bottom: 30px;
 }
-.diff_space_img { width: 45%; }
+.diff_space_img { 
+  width: 50%; 
+}
 .diff_space_desc {
-  width: 52%;
-  padding: 0 20px 0 8%;
-  background: url(img/cloud_l.png) no-repeat top left;
-  margin: 8% 12px;
+  width: 50%;
+  padding-top: 30px;
+  padding-right: 30px;
 }
 .diff_design > div {
   float: right;
 }
-.diff_design_img { width: 45%; }
+.diff_design_img { 
+  width: 50%; 
+}
 .diff_design_desc {
-  text-align: right;
   width: 50%;
-  background: url(img/cloud_r.png) no-repeat top right;
-  margin: 8% 20px 0 0;
-  padding: 0 8% 0 0;
+  padding-top: 50px;
+  padding-right: 30px;
 }
 /* ************ Media ************* */
 #media_sec {
@@ -483,7 +486,7 @@ header .gnb_bg {
 .review_list .list_title {
   float: left;
   font-size: 18px;
-  color: #747272;
+  color: #3c3c3c;
 }
 .review_list .list_date {
   float: right;
