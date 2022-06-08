@@ -10,7 +10,7 @@
     font-size: 14px;
   }
 
-  /*Header*/https://github.com/JiwooonKim/sukhyun-hanbok/blob/main/responsive.css
+  /*Header*/
   header { height: 60px; }
   .nav .gnb {
     display: none;
@@ -47,26 +47,20 @@
   }
 
   /* Difference */
-  .diff_space > div{
-    float: none;
-    width: 100%;
-    margin-bottom: 0;
+  .diff_space_desc {
+    width: 50%;
+    padding-top: 0;
+    padding-right: 0;
   }
-  .diff_space_desc,  
   .diff_design_desc {
-    text-align: center;
-    margin: 0;
-    padding: 30px 0 50px;
+    padding-top: 0;
   }
-  .diff_design > div{
-    float: none;
-    width: 100%;
-  }
-  .diff_space_desc { background: url(img/cloud_l.png) no-repeat 30% 30px; }
-  .diff_design_desc { background: url(img/cloud_r.png) no-repeat 70% 30px; }
 
   .diff_space_desc h3, .diff_design_desc h3 {
     font-size: 22px;
+  }
+  .diff_space_desc p, .diff_design_desc p {
+    font-size: 16px;
   }
 
   /* Media */
@@ -222,13 +216,23 @@
   .diff_inner h2 {
     margin: 80px 0 30px;
   }
-  .diff_space_desc {
-    background: url(img/cloud_l.png) no-repeat 20% 10px;
-    background-size: 42%;
+  .diff_space_img > img, .diff_design_img > img {
+    width: 100%;
   }
+  .diff_space > div{
+    float: none;
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .diff_design > div{
+    float: none;
+    width: 100%;
+  }
+  .diff_space_desc,  
   .diff_design_desc {
-    background: url(img/cloud_r.png) no-repeat 90% 10px;
-    background-size: 42%;  
+    text-align: center;
+    margin: 0;
+    padding: 30px 0 46px;
   }
   .diff_space_desc h3, .diff_design_desc h3 {
     font-size: 20px;
@@ -237,7 +241,10 @@
   .diff_space_desc p, .diff_design_desc p {
     font-size: 14px;
   }
-  .diff_space_desc p > br, .diff_design_desc p > br { display: none; }
+  .diff_space_desc p > br, .diff_design_desc p > br { 
+    display: none; 
+  }
+
 
   /* Media */
   #media_sec {
