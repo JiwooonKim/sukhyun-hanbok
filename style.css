@@ -306,10 +306,6 @@ header .gnb_bg {
   font-size: 20px;
   transition: .3s;
 }
-#main_qmenu > div > a:hover {
-  background-color: #a3afb5;
-  color: #fefefe;
-}
 
 /* ************ Difference ************* */
 #diff_sec {
