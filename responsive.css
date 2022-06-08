@@ -61,6 +61,7 @@
   }
   .diff_space_desc p, .diff_design_desc p {
     font-size: 16px;
+    line-height: 24px;
   }
 
   /* Media */
