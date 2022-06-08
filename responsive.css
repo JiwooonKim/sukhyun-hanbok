@@ -1,7 +1,7 @@
 @media (max-width: 1024px) {
   /*Global*/
   .sec_tit h2 {
-    font-size: 30px;
+    font-size: 28px;
   }
   .sec_tit p {
     font-size: 16px;
@@ -10,7 +10,7 @@
     font-size: 14px;
   }
 
-  /*Header*/
+  /*Header*/https://github.com/JiwooonKim/sukhyun-hanbok/blob/main/responsive.css
   header { height: 60px; }
   .nav .gnb {
     display: none;
@@ -68,10 +68,8 @@
   .diff_space_desc h3, .diff_design_desc h3 {
     font-size: 22px;
   }
-  .diff_space_desc p, .diff_design_desc p {
-    font-size: 16px;
-  }
-  
+
+  /* Media */
   .media_inner { margin-left: 40px; }
   .media_slide .slick-prev {
     right: 15%;
@@ -176,12 +174,12 @@
     padding: 0 20px;
   }
   .sec_tit h2 {
-    font-size: 26px;
+    font-size: 24px;
   }
   .sec_tit p {
     font-size: 14px;
   }
-  
+
   /* Fixed buton */
   .top_btn {
     right: 20px;
@@ -216,6 +214,9 @@
   .visual_desc .visual_desc_pc{
     display: none;
   }
+  .mobile_gnb_sub li a {
+    font-size: 14px;
+  }
 
   /* Difference */
   .diff_inner h2 {
@@ -249,7 +250,6 @@
   .media_slide .slick-arrow {
     display: none !important;
   }
-  
   /* Gallery */
   .gallery_inner.container {
     padding: 0 12px;
@@ -265,6 +265,15 @@
   }
 
   /*Review*/
+  #review_sec {
+    padding: 76px 0;
+  }
+  .review_tit .view_btn {
+    top: 38px;
+  }
+  .review_left .review_tit {
+    height: 86px;
+  }
   .review_list .list_title {
     float: inherit;
     font-size: 14px;
@@ -320,6 +329,9 @@
   .footer_info div {
     display: block;
     margin-left: 0;
+  }
+  .footer_sns_ico li ~ li {
+    margin-left: 20px;
   }
   .footer_menu li {
     margin-left: 18px;
